@@ -1,0 +1,45 @@
+{
+  "chrome_local": {
+    "remote_host": "",
+    "driver": "chrome",
+    "capabilities": {
+      "browserName": "chrome"
+    },
+    "arguments":[]
+  },
+  "firefox_local": {
+    "remote_host": "",
+    "driver": "firefox",
+    "capabilities": {
+      "browserName": "firefox"
+    },
+    "arguments":[]
+  },
+  "chrome_headless": {
+    "remote_host": "",
+    "driver": "chrome",
+    "capabilities": {
+      "browserName": "chrome"
+    },
+    "arguments":["headless"]
+  },
+  "browserstack_chrome_browser": {
+    "remote_host": "https://user:token@hub-cloud.browserstack.com/wd/hub",
+    "driver": "remote",
+    "capabilities": {
+      "browser": "Chrome",
+      "os": "Windows",
+      "browser_version": "74.0",
+      "os_version": "10"
+    },
+    "arguments":[]
+  },
+  "chrome_remote": {
+    "remote_host": "http://localhost:4444/wd/hub",
+    "driver": "remote",
+    "capabilities": {
+      "browserName": "chrome"
+    },
+    "arguments":[]
+  }
+}

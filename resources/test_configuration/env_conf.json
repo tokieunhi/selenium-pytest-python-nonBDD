@@ -1,0 +1,25 @@
+{
+    "dev":{
+        "baseUrl": "https://www.staging.theout.com",
+        "apiBaseUrl": "https://api.dev.theout.com",
+        "firebaseUri": "https://www.googleapis.com/identitytoolkit/v3/relyingparty",
+        "apiKey": "AIzaSyBCxdTBPh3LOoUrrQRJiiHmCzGXIyGQ2Zo"
+    },
+    "staging":{
+        "baseUrl": "https://www.staging.theout.com",
+        "apiBaseUrl": "https://api.staging.theout.com",
+        "firebaseUri": "https://www.googleapis.com/identitytoolkit/v3/relyingparty",
+        "apiKey": "AIzaSyBCxdTBPh3LOoUrrQRJiiHmCzGXIyGQ2Zo"
+    },
+    "uat":{
+        "baseUrl": "https://www.uat.theout.com",
+        "apiBaseUrl": "https://api.uat.theout.com",
+        "firebaseUri": "https://www.googleapis.com/identitytoolkit/v3/relyingparty",
+        "apiKey": "AIzaSyCjo4G8D_JcoqxSxZlDwboovZra-GwDUsk"
+    },
+    "prod":{
+        "baseUrl": "https://www.theout.com",
+        "apiBaseUrl": "https://api.theout.com",
+        "apiKey": "AIzaSyBCxdTBPh3LOoUrrQRJiiHmCzGXIyGQ2Zo"
+    }
+}

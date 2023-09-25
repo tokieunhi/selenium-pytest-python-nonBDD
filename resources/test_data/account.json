@@ -1,0 +1,34 @@
+{
+  "valid": [
+    {
+      "email": "auto.testing@yopmail.com",
+      "password": "Admin@1234",
+      "user_id": "asuWd5hWLISONXQe8ioVVqIgtfY2"
+    }
+  ],
+  "blank_email": [{
+    "email": "",
+    "password": "Admin@1234",
+    "user_id": "asuWd5hWLISONXQe8ioVVqIgtfY2"
+  }],
+  "blank_password": [{
+    "email": "auto.testing@yopmail.com",
+    "password": "",
+    "user_id": "asuWd5hWLISONXQe8ioVVqIgtfY2"
+  }],
+  "invalid_email": [{
+    "email": "auto.testing.invalid@yopmail.com",
+    "password": "Admin@1234",
+    "user_id": "asuWd5hWLISONXQe8ioVVqIgtfY2"
+  }],
+  "invalid_password": [{
+    "email": "auto.testing@yopmail.com",
+    "password": "Admin1234",
+    "user_id": "asuWd5hWLISONXQe8ioVVqIgtfY2"
+  }],
+  "invalid_email_format": [{
+    "email": "auto.testingyopmail.com",
+    "password": "Admin@1234",
+    "user_id": "asuWd5hWLISONXQe8ioVVqIgtfY2"
+  }]
+}

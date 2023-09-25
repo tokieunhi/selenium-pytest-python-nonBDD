@@ -1,0 +1,152 @@
+{
+  "valid": {
+    "visa": [
+      {
+        "postal_code": "700000",
+        "card_number": "4242424242424242",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      },
+      {
+        "postal_code": "700000",
+        "card_number": "4000056655665556",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      }
+    ],
+    "mastercard": [
+      {
+        "postal_code": "700000",
+        "card_number": "5555555555554444",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      },
+      {
+        "postal_code": "700000",
+        "card_number": "2223003122003222",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      },
+      {
+        "postal_code": "700000",
+        "card_number": "5200828282828210",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      },
+      {
+        "postal_code": "700000",
+        "card_number": "5105105105105100",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      }
+    ],
+    "american_express": {
+      "postal_code": "700000",
+      "card_number": "378282246310005",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "discover": {
+      "postal_code": "700000",
+      "card_number": "6011111111111117",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "diners_club": [
+      {
+        "postal_code": "700000",
+        "card_number": "3056930009020004",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      },
+      {
+        "postal_code": "700000",
+        "card_number": "36227206271667",
+        "card_cvc": "123",
+        "card_exp_month": 8,
+        "card_exp_year": 2027
+      }
+    ],
+    "union_pay": {
+      "postal_code": "700000",
+      "card_number": "6200000000000005",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "jcb": {
+      "postal_code": "700000",
+      "card_number": "3566002020360505",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    }
+  },
+  "invalid": {
+    "incorrect_number": {
+      "postal_code": "700000",
+      "card_number": "4242424242424241",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "expired_card": {
+      "postal_code": "700000",
+      "card_number": "4000000000000069",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "incorrect_cvc": {
+      "postal_code": "700000",
+      "card_number": "4000000000000127",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "processing_error": {
+      "postal_code": "700000",
+      "card_number": "4000000000000119",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "stolen_card": {
+      "postal_code": "700000",
+      "card_number": "4000000000009979",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "lost_card": {
+      "postal_code": "700000",
+      "card_number": "4000000000009987",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "insufficient_funds": {
+      "postal_code": "700000",
+      "card_number": "4000000000009995",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    },
+    "generic_decline": {
+      "postal_code": "700000",
+      "card_number": "4000000000000002",
+      "card_cvc": "123",
+      "card_exp_month": 8,
+      "card_exp_year": 2027
+    }
+  }
+}

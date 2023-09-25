@@ -1,0 +1,18 @@
+{
+    "valid":[
+        {
+            "isbn":"9781449325862",
+            "book_name":"Git Pocket Guide"
+        }
+    ],
+    "invalid":[
+        {
+            "isbn":"9781449365035",
+            "book_name":"Abcd1234@"
+        },
+        {
+            "isbn":"9781449365035457",
+            "book_name":"Abcd1234@"
+        }
+    ]
+}
